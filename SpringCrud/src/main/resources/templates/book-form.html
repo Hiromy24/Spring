@@ -15,7 +15,7 @@
 
                 <form th:action="@{/books}" method="POST" th:object="${book}">
 
-                    <input type="hidden" th:field ="*{id}">
+                    <input type="text" class="hidden" th:field ="*{id}">
 
                     <div class="mb-3">
                         <label for="title" class="form-label">title</label>
